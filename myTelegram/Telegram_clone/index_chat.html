@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="fontawesome/css/all.min.css">
+   <link rel="stylesheet" href="css/mystyle.css">
+   <script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script>
+
+   <title>iTelegram</title>
+</head>
+
+<body class="bg-light">
+   <div class="container">
+      <main class="chat-window shadow clearfix">
+         <header>
+            <div class="tg_head">
+               <div class="head_qidiruv  p-3">
+                  <input type="text" placeholder="Qidiruv" class="form-control">
+               </div>
+               <div class="head_main p-3">
+                  <p>Sherzod</p>
+               </div>
+            </div>
+         </header>
+         <aside class="contacts">
+            <ul class="list-people" appml-data="odamlar.json">
+               <li appml-repeat="odamlar">
+                  <div class="avatar float-start">
+                     <img class="w-100 rounded-circle" src="{{rasm}}" alt="">
+                     <span class="status"></span>
+                  </div>
+                  <div class="info">
+                     <h6>{{ism}}</h6>
+                     <span>{{tel}}</span>
+                  </div>
+               </li>
+            </ul>
+         </aside>
+         <div class="chat">
+            <!-- CHAT -->
+            <div class="msg">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae, explicabo, praesentium amet
+               rerum impedit odit id mollit1ia iusto voluptatum incidunt architecto qui aut vel accusamus fugiat
+               sapiente
+               asperiores aliquid.
+               <button class="btn btn-danger delete_msg">
+                  <i class="far fa-window-close"></i>
+               </button>
+            </div>
+            <div class="msg">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae, explicabo, praesentium amet
+               rerum impedit odit id mollit1ia iusto voluptatum incidunt architecto qui aut vel accusamus fugiat
+               sapiente
+               asperiores aliquid.
+               <button class="btn btn-danger delete_msg">
+                  <i class="far fa-window-close"></i>
+               </button>
+            </div>
+
+            <div class="msg me">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae, explicabo, praesentium amet
+               rerum impedit odit id mollit1ia iusto voluptatum incidunt architecto qui aut vel accusamus fugiat
+               sapiente
+               asperiores aliquid.
+               <button class="btn btn-danger delete_msg">
+                  <i class="far fa-window-close"></i>
+               </button>
+            </div>
+            <div class="msg">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae, explicabo, praesentium amet
+               rerum impedit odit id mollit1ia iusto voluptatum incidunt architecto qui aut vel accusamus fugiat
+               sapiente
+               asperiores aliquid.
+               <button class="btn btn-danger delete_msg">
+                  <i class="far fa-window-close"></i>
+               </button>
+            </div>
+         </div>
+      </main>
+   </div>
+   <div class="input-wrapper">
+      <input placeholder="Yozing" id="input" class="form-control p-4" type="text">
+      <button id="send" class="btn box-icon-right"><i class="far fa-paper-plane"></i></button>
+   </div>
+
+   <script src="odamlar.json"></script>
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>

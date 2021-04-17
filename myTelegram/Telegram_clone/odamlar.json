@@ -1,0 +1,74 @@
+{
+   "odamlar": [
+      {
+         "ism": "Ismoil",
+         "yosh": 16,
+         "adress": "Chigatoy",
+         "tel": "90939423947",
+         "rasm": "img/person.jpg"
+      },
+      {
+         "ism": "Mirodil",
+         "yosh": 46,
+         "adress": "Chilanzor",
+         "tel": "90939423947",
+         "rasm": "img/person_2.jpg"
+      },
+      {
+         "ism": "Xadicha",
+         "yosh": 17,
+         "adress": "Omazor",
+         "tel": "90939423947",
+         "rasm": "img/person_3.jpg"
+      },
+      {
+         "ism": "Ahmad",
+         "yosh": 89,
+         "adress": "Chigatoy",
+         "tel": "90939423947",
+         "rasm": "img/person_2.jpg"
+      },
+      {
+         "ism": "Mirodil",
+         "yosh": 46,
+         "adress": "Chilanzor",
+         "tel": "90939423947",
+         "rasm": "img/person_2.jpg"
+      },
+      {
+         "ism": "Abror",
+         "yosh": 17,
+         "adress": "Omazor",
+         "tel": "90939423947",
+         "rasm": "img/person.jpg"
+      },
+      {
+         "ism": "Fotima",
+         "yosh": 89,
+         "adress": "Chigatoy",
+         "tel": "90939423947",
+         "rasm": "img/person_3.jpg"
+      },
+      {
+         "ism": "Mirodil",
+         "yosh": 46,
+         "adress": "Chilanzor",
+         "tel": "90939423947",
+         "rasm": "img/person_2.jpg"
+      },
+      {
+         "ism": "Ahmad",
+         "yosh": 17,
+         "adress": "Omazor",
+         "tel": "90939423947",
+         "rasm": "img/person.jpg"
+      },
+      {
+         "ism": "Maryam",
+         "yosh": 89,
+         "adress": "Chigatoy",
+         "tel": "90939423947",
+         "rasm": "img/person_3.jpg"
+      }
+   ]
+}

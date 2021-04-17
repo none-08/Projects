@@ -1,0 +1,39 @@
+.payment-wrap{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+a {
+   color: #212529;
+   text-decoration: none;
+   background-color: transparent;
+   &:hover{
+      text-decoration: none;
+      color: rgb(223, 19, 19) ;
+   }
+}
+.list-menu{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   li{ margin-bottom: 3px; padding-left: 3px;}
+   .active{
+      background-color: #f0f2f4;
+      border-radius: 6px;
+   }
+}
+.title { margin: 0; }
+img { max-width: 100%; object-fit: contain;}
+// ==========  for DARK-MODE
+.dark{
+   background-color: black !important;
+   color: white !important;
+   *{
+      border: none !important;
+   }
+   .product{
+      background-color: #222;
+      border: none;
+      color: white !important;
+   }
+}

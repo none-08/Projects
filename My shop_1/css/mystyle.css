@@ -1,0 +1,415 @@
+.payment-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+  color: #df1313;
+}
+
+.list-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.list-menu li {
+  margin-bottom: 3px;
+  padding-left: 3px;
+}
+.list-menu .active {
+  background-color: #f0f2f4;
+  border-radius: 6px;
+}
+
+.title {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.dark {
+  background-color: black !important;
+  color: white !important;
+}
+.dark * {
+  border: none !important;
+}
+.dark .product {
+  background-color: #222;
+  border: none;
+  color: white !important;
+}
+
+.header-topmenu {
+  margin-left: 35%;
+}
+
+.header-main {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.banner-big {
+  background-color: #f1e398;
+  padding: 30px;
+  height: 380px;
+  border-radius: 7px;
+}
+.banner-big img {
+  width: 100%;
+}
+
+.banner-mini {
+  text-align: center;
+  background-color: #623375;
+  color: white;
+  border-radius: 7px;
+  padding: 20px;
+  height: 380px;
+}
+.banner-mini img {
+  width: 85%;
+}
+
+/* tavarlar */
+.product {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.product:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+.product .info {
+  padding: 20px;
+}
+.product img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+.product .price {
+  margin-bottom: 7px;
+}
+
+.section-product {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.title-section {
+  margin-bottom: 30px;
+}
+
+/* kategory */
+.kategory {
+  border-radius: 6px;
+  margin-bottom: 50px;
+  width: 235px;
+  border: 1px solid #ccc;
+}
+.kategory img {
+  margin: 10px;
+  object-fit: contain;
+  width: 100px;
+  height: 50px;
+}
+.kategory:hover {
+  border: 1px solid red;
+  box-shadow: 0 0 5px #b84444;
+}
+
+.section-heading {
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* section deal */
+.banner-middle {
+  background-color: #EB1537;
+  color: white;
+  border-radius: 7px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.banner-middle img {
+  display: block;
+  width: 80%;
+  border-radius: 7px;
+  height: 30%;
+}
+.banner-middle .btn {
+  margin-top: 40px;
+}
+.banner-middle:hover {
+  box-shadow: 0 0 5px #ac2a60;
+}
+
+/* === section item4 === */
+.list {
+  list-style: none;
+  font-size: large;
+}
+.list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 30px;
+  text-align: center;
+}
+
+.list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 0.5rem;
+}
+.list li:hover {
+  background-color: rgba(56, 56, 56, 0.281);
+}
+
+/*===== Section watched =====*/
+.watched img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.watched a {
+  width: 115px;
+  height: 115Spx;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.watched a:hover {
+  box-shadow: 0 0 5px #ac2a60;
+  border: 1px solid red;
+}
+
+/* sectoin footer */
+.menu-footer {
+  list-style: none;
+}
+.menu-footer a {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+.menu-footer a:hover {
+  color: red;
+}
+
+.text-lg {
+  font-size: x-large;
+}
+
+.box {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #ccc;
+}
+
+/* ========================= OWL SLIDER ======================= */
+.owl-nav button.owl-next {
+  outline: none;
+  position: absolute;
+  top: 42%;
+  right: 5%;
+  height: 30px;
+  width: 30px;
+  text-align: center !important;
+  background-color: rgba(58, 56, 54, 0.37) !important;
+  color: black !important;
+  border-radius: 100% !important;
+}
+.owl-nav button.owl-prev {
+  outline: none;
+  position: absolute;
+  display: inline-block;
+  top: 42%;
+  left: 1%;
+  height: 30px;
+  width: 30px;
+  text-align: center !important;
+  background-color: rgba(58, 56, 54, 0.37) !important;
+  color: black !important;
+  border-radius: 100% !important;
+  z-index: 9;
+}
+.owl-nav button.owl-prev:hover {
+  background-color: #d61f1f !important;
+  color: white !important;
+}
+.owl-nav button.owl-next:hover {
+  background-color: #d61f1f !important;
+  color: white !important;
+}
+
+/* ========================================  PRODUCT PAGE  ========================================*/
+.intro-title {
+  text-align: center;
+  border-radius: 7px;
+  display: list-item;
+  padding-top: 5px;
+  display: flex;
+  background-color: #f0f2f4;
+}
+
+.fanmini_img {
+  width: 90px;
+  margin-bottom: 13px;
+}
+
+.intro-title li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 6px;
+}
+.intro-title a {
+  text-decoration: none;
+  color: rgba(88, 87, 87, 0.705);
+}
+.intro-title a:hover {
+  color: #383838;
+}
+
+/* ========================================  REGISTER PAGE  ========================================*/
+.register-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* ========================================  KARZINKA PAGE  ========================================*/
+.k_img {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.text-muted {
+  color: #9FAAB7 !important;
+}
+
+.itemside {
+  text-align: center;
+}
+
+.aside {
+  width: 80px;
+}
+
+/*  ========== megamenu  */
+.megamenu {
+  position: absolute;
+  min-height: 650px;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  z-index: 100;
+  top: 100px;
+  background-color: #fff;
+  display: flex;
+}
+.megamenu .active {
+  color: #EB1537 !important;
+  box-shadow: -5px 2px 7px #ccc;
+  border-radius: 6px;
+  background-color: #fff !important;
+}
+.megamenu .nav {
+  display: block;
+  width: 240px;
+  float: right;
+}
+.megamenu .nav .nav-link {
+  color: black;
+}
+
+.aside-megamenu {
+  background-color: #F8F8F8;
+  width: 25%;
+  padding: 24px;
+  padding-right: 0;
+}
+
+.sub-megamenu {
+  width: 100%;
+  padding: 30px;
+}
+.sub-megamenu .active {
+  color: black !important;
+  box-shadow: none !important;
+}
+.sub-megamenu .megamenu_ul {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  list-style: none;
+}
+.sub-megamenu .megamenu_ul li {
+  padding-bottom: 5px;
+}
+.sub-megamenu .megamenu_ul a {
+  display: block;
+}
+.sub-megamenu .megamenu-product {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 6px !important;
+  margin-bottom: 5px;
+}
+.sub-megamenu .megamenu-product img {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.sub-megamenu .megamenu-product a {
+  align-items: center;
+}
+.sub-megamenu .megamenu-product:hover {
+  background-color: #eee;
+}
+
+.background-overlay {
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+#js-megamenu {
+  position: relative;
+  z-index: 40;
+  white-space: nowrap;
+}
+
+.icon-close {
+  display: none;
+}
+
+#icon-close-mode {
+  display: none;
+}

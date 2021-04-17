@@ -1,0 +1,109 @@
+.item-product{
+   background-color: #f0f0f0;
+}
+
+.product{
+	border: 1px solid #ddd;
+	background-color: #fff;
+	border-radius: 7px;
+   padding: 1rem; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.product:hover{
+   transform: scale(1.1);
+   transition: .2s;
+}
+img{
+   max-width: 100%;
+}
+
+// product_page
+.in_stock_info{
+   background-color: #232f4d;
+   color: #fff;
+   padding: 1px 7px 2px 7px;
+   border-radius: 10px;
+   font-size: 14px;
+}
+$base-color: #afc80b;
+
+.c_green{
+   color: $base-color
+}
+.product_btn_g{
+   background-color: $base-color;
+   color: #fff;
+   border-radius: 20px;
+   padding: 10px 30px 10px 30px;
+   font-size: 20px;
+   border: none;
+}
+.product_btn_g:hover{
+   background-color: #c2db1c;
+   transition: .3s;
+}
+.product_info{
+   ul{
+      padding: 15px 0px 0px 0px;
+   }
+   li{
+    list-style-type: none;
+    font-size: 15px;
+   }
+}
+.info_atten{
+   display: block;
+   white-space: nowrap;
+   padding: 5px 0px  5px 0px;
+   border-bottom: 1px solid #ddd;
+}
+// FOR === TABS
+.tabs-a{
+   color: black;
+   font-size: 20px;
+   font-weight: 500;
+}
+.nav-link.active{
+   border-top: 3px solid green !important;
+} 
+.discuss_author{
+   width: 35%;
+   padding: 5px;
+}
+.discuss_info{
+   width: 65%;
+   padding: 5px;
+}
+.stat-block{
+   width: 13rem;
+}
+.dis-status{
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   position: relative;
+   white-space: nowrap;
+   .stat_active{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background: #feba0f;
+      border-radius: 6px
+   }
+   .stat_1 {
+      width: 60px;
+   }
+   .stat_2{
+      width: calc(100% - 110px);
+      position: relative;
+      width: 100%;
+      height: 5px;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.075); 
+   }
+
+}
+
+//  === TABS end === 

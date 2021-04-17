@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <title>iTelegram</title>
+</head>
+
+<body class="bg-light">
+
+  <div class="tepa-fon"></div>
+
+  <div class="card shadow mx-auto" style="max-width: 350px;margin-top:-100px;">
+    <div class="card-body">
+      <h5>Kirish</h5>
+      <p>Kirish uchun telefon raqamingizni yozib qoldiring!</p>
+
+      <form action="index_chat.html">
+        <div class="mb-3">
+          <input required placeholder="Davlatlarni tanla" class="form-control" list="davlatlar">
+          <datalist id="davlatlar">
+            <option>USA</option>
+            <option>Uzbekiston</option>
+            <option>Russia</option>
+            <option>Kazagiztan</option>
+          </datalist>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-4"><input required value="+998" class="form-control" disabled type="text"></div>
+          <div class="col-8"><input required id="input" class="form-control" type="text"></div>
+        </div>
+        <button id="next" class="btn btn-primary w-100" type="submit">Davom etish </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
